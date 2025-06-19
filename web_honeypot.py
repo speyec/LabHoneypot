@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from logging.handlers import RotatingFileHandler
 #Logging Format
 logging_format = logging.Formatter('%(asctime)s %(message)s')
-
+#made comment
 # HTTP Logger
 funnel_logger = logging.getLogger('FunnelLogger')
 funnel_logger.setLevel(logging.INFO)
